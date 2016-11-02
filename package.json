@@ -1,7 +1,7 @@
 {
   "name": "desktop-habitica",
   "productName": "Habitica",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unofficial Habitica desktop app",
   "main": "main.js",
   "scripts": {
