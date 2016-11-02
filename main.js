@@ -34,6 +34,7 @@ app.on('ready', () => {
           'height': mainWindowState.height,
           minWidth: 500,
           minHeight: 300,
+          icon: 'resources/icon.png',
           webPreferences: {
               nodeIntegration: false
           }
