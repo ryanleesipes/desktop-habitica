@@ -55,6 +55,7 @@ app.on('ready', () => {
     mainWindowState.manage(mainWindow);
 
     const page = mainWindow.webContents;
+
     page.on('dom-ready', () => {
         page.insertCSS(
             fs.readFileSync(path.join(__dirname, 'browser.css'), 'utf8'));
